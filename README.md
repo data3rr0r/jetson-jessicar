@@ -44,8 +44,7 @@ Visualization: It supports RViz(Robot Visualization) messages for visualizing re
 
 # Software setup
 ## Ubuntu Installing/Basic Setup
-Assumes you have a monitor/keyboard/mouse for jetson. 
-Reference : https://zeta7.notion.site/2-Jetpack-ROS-install-ddf19c38e55d4166a559ad803b2f2a4e <br>
+Assumes you have a monitor/keyboard/mouse for jetson. <br>
 Install image downloaded from this link : https://drive.google.com/file/d/1HU5F1cwiw2wzuNBdLL9R3Wvpg5AXLzw5/view?usp=sharing 
 
 After flashing, login with following credentials.
