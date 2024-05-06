@@ -199,7 +199,7 @@ cd ~/catkin_ws/src/yolov4-for-darknet_ros/darknet_ros
 git clone https://github.com/zeta0707/darknet_ros_custom.git
 cp -rf darknet_ros_custom/* darknet_ros/
 ```
-This will modify yolov4 to yolov4-tiny, and apply config and weights for custom datasets.
+This will modify yolov4 to yolov4-tiny, and apply config and weights for custom datasets. Pre-trained model is already included.
 Now we have packages ready. build with 'cma' command.
 # Yolov4 tiny with my custom traffic sign
 We will use 2 terminals. The car will do some operation (move/stop/turn right/turn left/etc..) based on camera input. I used pretrained dataset, but it can be created also.
