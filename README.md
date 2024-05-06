@@ -1,5 +1,7 @@
 # jetson-jessicar
 Reference link : https://zeta7.notion.site/zeta7/JessiCar-1449b3fd5c984bab816920cb2b92002d
+<br>
+This project aims to make a self-driving car. In this project, you can either make the car follow objectives which has specific color, or drive on its own based on traffic signs detected from camera.
 
 ## ROS (Robot Operating System)
 ROS is an open source robot operating system for robot operation.
