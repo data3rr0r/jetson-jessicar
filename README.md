@@ -215,3 +215,5 @@ roslaunch jessicar_control traffic_all.launch
 
 This is my demo video. Check this out, and watch how the front/back wheels of the car operates based on each signs. 
 Link: https://youtu.be/IFFw-60XPq4
+
+You can download traffic signs used in videos from this repository. Download "yolo traffic signs.zip" from this repository.
