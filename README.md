@@ -191,7 +191,7 @@ sudo apt-get install -y ros-melodic-image-pipeline
 cd ~/catkin_ws/src
 git clone --recursive https://github.com/Tossy0423/yolov4-for-darknet_ros.git
 ```
-I deceded to use Tossy0423's repository since it supports YOLO4. You can use others as well if they support YOLO4.
+I deceded to use Tossy0423's repository since it supports YOLO4. Special thanks to him for providing this awesome package. You can use others as well if they support YOLO4.
 We need some modifications for darknet_ros. Use the following commands.
 ```
 cd ~/catkin_ws/src/yolov4-for-darknet_ros/darknet_ros
