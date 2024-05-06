@@ -44,9 +44,10 @@ Visualization: It supports RViz(Robot Visualization) messages for visualizing re
 
 # Software setup
 ## Ubuntu Installing/Basic Setup
-Assumes you have a monitor/keyboard/mouse for jetson.
-Reference : https://zeta7.notion.site/2-Jetpack-ROS-install-ddf19c38e55d4166a559ad803b2f2a4e
+Assumes you have a monitor/keyboard/mouse for jetson. 
+Reference : https://zeta7.notion.site/2-Jetpack-ROS-install-ddf19c38e55d4166a559ad803b2f2a4e <br>
 Install image downloaded from this link : https://drive.google.com/file/d/1HU5F1cwiw2wzuNBdLL9R3Wvpg5AXLzw5/view?usp=sharing 
+
 After flashing, login with following credentials.
 * ID: jetson
 * PW: jetson
@@ -70,7 +71,7 @@ git clone https://github.com/zeta0707/installROS.git
 cd installROS
 ./install-ros.sh
 ```
-To improve environment. add the following lines to ./.bashrc
+To streamline development environment, add the following lines to ./.bashrc
 ```
 alias cma='catkin_make -DCATKIN_WHITELIST_PACKAGES=""'
 alias cop='catkin_make --only-pkg-with-deps'
@@ -135,7 +136,7 @@ $ ./camSelect.sh usbcam
 
 Now, install jessicar with `sudo apt install ros-melodic-desktop-full` command. You may need to execute `sudo apt install ros-melodic-joy* \ ros-melodic-teleop-twist-joy ros-melodic-teleop-twist-keyboard \ python-smbus ros-melodic-ackermann-msgs ros-melodic-web-video-server \ ros-melodic-image-pipeline python-pip` to install other ROS packages.
 
-## Testing keyboard input
+## Controlling with keyboard (Optional, unrelated to self driving)
 Open 2 terminals and execute the following commands.
 ```
 # terminal #1
@@ -152,7 +153,7 @@ space key, s : force stop
 ![image](https://github.com/data3rr0r/jetson-jessicar/assets/102942399/4231fad4-b8a0-46da-94d9-6d319a740d17)
 This is NOT hold, just toggle.
 
-## Testing Camera 
+## Testing Camera (optional)
 Install ROS melodic image view by `sudo apt install ros-melodic-image-view` command.
 Open 2 terminals and execute the following. 
 ```
